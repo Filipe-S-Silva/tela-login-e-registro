@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: linear-gradient(280deg, blue, white);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxRegister {
+    background: rgba(29, 48, 221, 0.712);
+    border-radius: 10px;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.boxRegister h1 {
+    font-size: 25px;
+
+    text-align: left;
+}
+
+.boxRegister p {
+    font-size: 20px;
+    height: 27px;
+    border: none;
+}
+
+.boxRegister input {
+    border-radius: 7px;
+    font-size: 20px;
+    height: 25px;
+    border: none;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.409);
+    background: white;
+    padding-left: 12px;
+}
+
+.boxRegister #passwordConfirm_ {
+    width: 200px;
+}
+
+.boxRegister button {
+    width: 100px;
+    height: 25px;
+    border-radius: 10px;
+    font-size: 15px;
+    color: white;
+    background: darkblue;
+    box-shadow: 3px 3px 3px white;
+    border: 1px solid transparent;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.boxRegister button:hover {
+    color: darkblue;
+    background: white;
+    border: 1px solid darkblue;
+    box-shadow: 3px 3px 3px rgba(0, 0, 139, 0.719);
+
+}

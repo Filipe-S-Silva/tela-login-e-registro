@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina de registro</title>
+    <link rel="stylesheet" href="css/stylleRegister.css">
+</head>
+
+<body>
+
+    <div class="boxRegister">
+
+        <h1>REGISTER</h1>
+
+        <p>Nome: <input type="text" name="nameUser" id="name_" placeholder="Nome" onkeyup="name()"></p>
+
+        <p>Telefone: <input type="text" name="telephoneUser" id="telephone_" placeholder="Telefone"
+                onkeyup="telephone()"></p>
+
+        <p>Email: <input type="email" name="emailUser" id="email_" placeholder="Email" onkeyup="email()"></p>
+
+        <p>Login: <input type="text" name="loginUser" id="login_" placeholder="Login" onkeyup="login()"></p>
+
+        <p>Senha: <input type="password" name="passwordUser" id="password_" placeholder="Senha" onkeyup="password()">
+        </p>
+
+        <p>Confirmar senha: <input type="password" name="passwordCheckUser" id="passwordConfirm_"
+                placeholder="Confirmar Senha" onkeyup="checkPassword()"></p>
+
+        <button class="btn">Enviar dados</button>
+
+    </div>
+
+    <script src="js/pageRegister.js"></script>
+</body>
+
+</html>
